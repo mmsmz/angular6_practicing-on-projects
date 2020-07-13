@@ -10,8 +10,7 @@ export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', 'This is simply the desciption', 'https://i.ytimg.com/vi/Vv5Iq-kU1Y4/maxresdefault.jpg'),
-    new Recipe('A Test Recipe', 'This is simply the desciption', 'https://i.ytimg.com/vi/Vv5Iq-kU1Y4/maxresdefault.jpg'),
-    new Recipe('A Test Recipe', 'This is simply the desciption', 'https://i.ytimg.com/vi/Vv5Iq-kU1Y4/maxresdefault.jpg')
+    new Recipe('A Test Recipe', 'This is simply the desciption', 'https://i.ytimg.com/vi/Vv5Iq-kU1Y4/maxresdefault.jpg') 
   ];
 
   constructor() { }
